@@ -235,7 +235,7 @@ export default class BitmapText extends core.Container
         }
 
         const lenChars = chars.length;
-        const tint = this.tint;
+        const tint = this._font.tint;
 
         for (let i = 0; i < lenChars; i++)
         {
